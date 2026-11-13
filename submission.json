@@ -1,0 +1,28 @@
+{
+  "submission_version": "apctt-submission-v3",
+  "team": "ACRLO",
+  "package_id": "my-team-module",
+  "package_version": "0.1.0",
+  "base_id": "apctt-base-9e7fe1324bb6",
+  "declared_package_sha256": "5762126636613210813a4d9193608571601594277efd4e8712bd9781cbc432fa",
+  "license": "MIT",
+  "compute": {
+    "device": "Cuda:0"
+  },
+  "settings": {
+    "nli_threshold": 0.72,
+    "high_level_bonus": 0.08,
+    "candidates_per_criterion": 12,
+    "hypothesis_mode": "target",
+    "extractor": "pypdf"
+
+  },
+  "models": [
+    {
+      "catalog_id": "all-minilm-l6-v2"
+    },
+    {
+      "catalog_id": "deberta-v3-base-zeroshot-v2.0-c"
+    }
+  ]
+}

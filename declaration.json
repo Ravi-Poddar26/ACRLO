@@ -1,0 +1,23 @@
+{
+  "declaration_version": "apctt-declaration-example-v1",
+  "team": "ACRLO",
+  "package_id": "my-team-module",
+  "package_version": "0.1.0",
+  "declared_package_sha256": "5762126636613210813a4d9193608571601594277efd4e8712bd9781cbc432fa",
+  "team_training": "no_team_training",
+  "training": null,
+  "data_sources": [],
+  "inference_assets": {
+    "source_code": "participant_module/ (all code written by the team)",
+    "weights": [],
+    "prompts_or_rules": [
+      "participant_module/adapter.py: keyword hints per criterion type (EXPANSIONS) and text-cleaning rules"
+    ],
+    "reference_assets": [],
+    "dependency_declarations": [
+      "the common base environment (base_id in submission.json)",
+      "catalogue models listed in submission.json models[]"
+    ]
+  },
+  "notes": "No team training and no external data. The module uses only base packages and the catalogue models all-MiniLM-L6-v2 and deberta-v3-base-zeroshot-v2.0-c."
+}
