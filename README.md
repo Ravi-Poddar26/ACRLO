@@ -36,4 +36,4 @@ No OCR for scanned pages; no separate `not met` detection (unproven criteria are
 `insufficient evidence`); thresholds were tuned on a small number of public sample cases.
 
 ## Licence
-MIT. Third-party components are listed in `participant_module/THIRD_PARTY_NOTICES.md`.
+MIT. Third-party components are listed in `participant_module/THIRD_PARTY_NOTICES.md`.# ACRLO
